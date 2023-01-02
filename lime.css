@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+/* background immage */
+/* Problema:modalita finestra lascia spazio vuoto sotto e quando
+eseguo lo zoom si deforma*/
+body{
+  background: url(background.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  text-align: center;
+}
+/* soluzione trovata in rete*/
+/* ========= Parte Header ============ */
+.container{
+  background-color: rgb(10, 10, 10, 0.6);
+  width: 70%;
+  display: inline-block;
+  border-radius: 50px;
+  margin: 150px;
+}
+
+.header{
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  margin: 10px;
+}
+
+h1{
+  color: limegreen;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.tasti{
+  width: 80%;
+  display: inline-block;
+  background-color: limegreen;
+  border: solid limegreen;
+  border-width: 8px;
+  margin: 10px;
+}
+/* ======= Parte Main ========== */
+main{
+  margin-left: 6%;
+}
+
+.spacer{
+  margin: 60px;
+  text-align: left;
+}
+
+h3{
+  display: inline-block;
+  text-align: left;
+  color: white;
+  margin: 2px;
+  font-size:  19px;
+}
+
+p{
+  color: white;
+  margin: 1px;
+  font-size: 14px;
+}
+
+span{
+  color: white;
+}
+
+.first-line{
+  width: 260px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.second-line{
+  width: 390px;
+  height: 25px;
+  background-color: limegreen;
+  border-radius: 7px;
+}
+
+.third-line{
+  width: 160px;
+  height: 25px;
+  background-color: red;
+  border-radius: 7px;
+}
